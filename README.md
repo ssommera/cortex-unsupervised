@@ -14,16 +14,16 @@
 ---
 
 <p align="center">
-  <em>Can we recover meaningful brain states purely from the structure of EEG data — without any labels?</em>
+  <em>Can we recover meaningful brain states purely from the structure of EEG data without any labels?</em>
 </p>
 
 ---
 
 ## Overview
 
-**cortex-unsupervised** is an independent research pipeline for **label-free neural state discovery** from EEG signals. Using 64-channel motor imagery data from PhysioNet, the pipeline applies a full unsupervised ML stack — artifact removal, dimensionality reduction, and probabilistic clustering — to identify latent cognitive states embedded in raw brain activity.
+**cortex-unsupervised** is an independent research pipeline for **label-free neural state discovery** from EEG signals. Using 64-channel motor imagery data from PhysioNet, the pipeline applies a full unsupervised ML stack artifact removal, dimensionality reduction, and probabilistic clustering — to identify latent cognitive states embedded in raw brain activity.
 
-This project sits at the intersection of **ML algorithm design** and **computational neuroscience**, with a long-term research focus on neural dynamics at the boundaries of consciousness — including altered, boundary, and terminal brain states.
+This project sits at the intersection of **ML algorithm design** and **computational neuroscience**, with a long-term research focus on neural dynamics at the boundaries of consciousness including altered, boundary, and terminal brain states.
 
 This is independent research conducted outside of any coursework or institutional affiliation.
 
@@ -31,16 +31,16 @@ This is independent research conducted outside of any coursework or institutiona
 
 ## Research Question
 
-> *Can unsupervised machine learning recover interpretable neural states from EEG motor imagery data — and what does the geometry of brain state space reveal about how the brain organizes itself?*
+> *Can unsupervised machine learning recover interpretable neural states from EEG motor imagery data and what does the geometry of brain state space reveal about how the brain organizes itself?*
 
 ### Why It Matters
 
-Neural signals are high-dimensional, noisy, and temporally structured. Supervised approaches require labeled data — expensive in clinical and BCI settings. Unsupervised methods offer a path toward:
+Neural signals are high-dimensional, noisy, and temporally structured. Supervised approaches require labeled data expensive in clinical and BCI settings. Unsupervised methods offer a path toward:
 
 - **Label-free brain-computer interface (BCI) state detection**
 - **Exploratory neural dynamics analysis** without clinical annotation
 - **Hypothesis generation** for downstream supervised modeling
-- **Computational characterization** of consciousness boundaries — applicable to altered, anesthetic, and terminal brain states
+- **Computational characterization** of consciousness boundaries applicable to altered, anesthetic, and terminal brain states
 
 ---
 
